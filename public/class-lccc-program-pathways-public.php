@@ -73,7 +73,8 @@ class Lccc_Program_Pathways_Public {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/lccc-program-pathways-public.css', array(), $this->version, 'all' );
+  //Commenting out since the files are empty.
+		//wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/lccc-program-pathways-public.css', array(), $this->version, 'all' );
 
 	}
 
@@ -96,7 +97,8 @@ class Lccc_Program_Pathways_Public {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/lccc-program-pathways-public.js', array( 'jquery' ), $this->version, false );
+  //Commenting out since the files are empty.
+		//wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/lccc-program-pathways-public.js', array( 'jquery' ), $this->version, false );
 
 	}
 
